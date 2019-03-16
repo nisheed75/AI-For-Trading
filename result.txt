@@ -1,0 +1,86 @@
+AIND-NLP-master\.ipynb_checkpoints\sentiment_analysis-checkpoint.ipynb:555:    "def classify_gboost(X_train, X_test, y_train, y_test):        \n",
+AIND-NLP-master\.ipynb_checkpoints\sentiment_analysis-checkpoint.ipynb:621:    "(X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=vocabulary_size)\n",
+AIND-NLP-master\.ipynb_checkpoints\sentiment_analysis-checkpoint.ipynb:622:    "print(\"Loaded dataset with {} training samples, {} test samples\".format(len(X_train), len(X_test)))"
+AIND-NLP-master\.ipynb_checkpoints\sentiment_analysis-checkpoint.ipynb:693:    "# TODO: Pad sequences in X_train and X_test\n"
+AIND-NLP-master\.ipynb_checkpoints\sentiment_analysis-checkpoint.ipynb:807:    "scores = model.evaluate(X_test, y_test, verbose=0)  # returns loss and other metrics specified in model.compile()\n",
+AIND-NLP-master\sentiment_analysis.ipynb:555:    "def classify_gboost(X_train, X_test, y_train, y_test):        \n",
+AIND-NLP-master\sentiment_analysis.ipynb:621:    "(X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=vocabulary_size)\n",
+AIND-NLP-master\sentiment_analysis.ipynb:622:    "print(\"Loaded dataset with {} training samples, {} test samples\".format(len(X_train), len(X_test)))"
+AIND-NLP-master\sentiment_analysis.ipynb:693:    "# TODO: Pad sequences in X_train and X_test\n"
+AIND-NLP-master\sentiment_analysis.ipynb:807:    "scores = model.evaluate(X_test, y_test, verbose=0)  # returns loss and other metrics specified in model.compile()\n",
+deep-learning-v2-pytorch\keras\cifar10-augmentation\cifar10_augmentation.ipynb:36:    "(x_train, y_train), (x_test, y_test) = cifar10.load_data()"
+deep-learning-v2-pytorch\keras\cifar10-augmentation\cifar10_augmentation.ipynb:90:    "x_test = x_test.astype('float32')/255 "
+deep-learning-v2-pytorch\keras\cifar10-augmentation\cifar10_augmentation.ipynb:120:    "(x_train, x_valid) = x_train[5000:], x_train[:5000]\n",
+deep-learning-v2-pytorch\keras\cifar10-augmentation\cifar10_augmentation.ipynb:134:    "print(x_test.shape[0], 'test samples')\n",
+deep-learning-v2-pytorch\keras\cifar10-augmentation\cifar10_augmentation.ipynb:518:    "model.fit_generator(datagen_train.flow(x_train, y_train, batch_size=batch_size),\n",
+deep-learning-v2-pytorch\keras\cifar10-augmentation\cifar10_augmentation.ipynb:567:    "score = model.evaluate(x_test, y_test, verbose=0)\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:36:    "(x_train, y_train), (x_test, y_test) = cifar10.load_data()"
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:90:    "x_test = x_test.astype('float32')/255"
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:125:    "(x_train, x_valid) = x_train[5000:], x_train[:5000]\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:133:    "print(x_test.shape[0], 'test samples')\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:554:    "hist = model.fit(x_train, y_train, batch_size=32, epochs=100,\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:601:    "score = model.evaluate(x_test, y_test, verbose=0)\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:623:    "y_hat = model.predict(x_test)\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:648:    "for i, idx in enumerate(np.random.choice(x_test.shape[0], size=32, replace=False)):\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_cnn.ipynb:650:    "    ax.imshow(np.squeeze(x_test[idx]))\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_mlp.ipynb:43:    "(x_train, y_train), (x_test, y_test) = cifar10.load_data()"
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_mlp.ipynb:109:    "x_test = x_test.astype('float32')/255 "
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_mlp.ipynb:151:    "(x_train, x_valid) = x_train[5000:], x_train[:5000]\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_mlp.ipynb:159:    "print(x_test.shape[0], 'test samples')\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_mlp.ipynb:352:    "hist = model.fit(x_train, y_train, batch_size=32, epochs=20,\n",
+deep-learning-v2-pytorch\keras\cifar10-classification\cifar10_mlp.ipynb:411:    "score = model.evaluate(x_test, y_test, verbose=0)\n",
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras.ipynb:44:    "(x_train, y_train), (x_test, y_test) = imdb.load_data(num_words=1000)\n",
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras.ipynb:47:    "print(x_test.shape)"
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras.ipynb:86:    "x_train = tokenizer.sequences_to_matrix(x_train, mode='binary')\n",
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras.ipynb:87:    "x_test = tokenizer.sequences_to_matrix(x_test, mode='binary')\n",
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras.ipynb:162:    "score = model.evaluate(x_test, y_test, verbose=0)\n",
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras_Solutions.ipynb:52:    "hist = model.fit(x_train, y_train,\n",
+deep-learning-v2-pytorch\keras\IMDB-keras\IMDB_In_Keras_Solutions.ipynb:55:    "          validation_data=(x_test, y_test), \n",
+deep-learning-v2-pytorch\keras\mnist-mlp\mnist_mlp.ipynb:43:    "(X_train, y_train), (X_test, y_test) = mnist.load_data()\n",
+deep-learning-v2-pytorch\keras\mnist-mlp\mnist_mlp.ipynb:46:    "print(\"The MNIST database has a test set of %d examples.\" % len(X_test))"
+deep-learning-v2-pytorch\keras\mnist-mlp\mnist_mlp.ipynb:143:    "X_test = X_test.astype('float32')/255 "
+deep-learning-v2-pytorch\keras\mnist-mlp\mnist_mlp.ipynb:291:    "score = model.evaluate(X_test, y_test, verbose=0)\n",
+deep-learning-v2-pytorch\keras\mnist-mlp\mnist_mlp.ipynb:354:    "hist = model.fit(X_train, y_train, batch_size=128, epochs=10,\n",
+deep-learning-v2-pytorch\keras\mnist-mlp\mnist_mlp.ipynb:400:    "score = model.evaluate(X_test, y_test, verbose=0)\n",
+dependent_labels_solution.ipynb:299:    "def model_score(m, X_train, y_train, X_valid, y_valid):\n",
+dependent_labels_solution.ipynb:334:    "    train_score = m.score(X_train, y_train)\n",
+dependent_labels_solution.ipynb:365:    "    X_train, X_valid, X_test = X.iloc[:train_end,], X.iloc[(train_end+1):valid_end,], X.iloc[(valid_end+1):]\n",
+dependent_labels_solution.ipynb:368:    "    return X, X_train, X_valid, X_test, y_train, y_valid, y_test"
+dependent_labels_solution.ipynb:390:    "X, X_train, X_valid, X_test, y_train, y_valid, y_test = make_splits(\n",
+dependent_labels_solution.ipynb:423:    "def instantiate_and_fit_one_tree(X_train, y_train):\n",
+dependent_labels_solution.ipynb:463:    "clf = instantiate_and_fit_one_tree(X_train, y_train)"
+dependent_labels_solution.ipynb:781:    "def instantiate_and_fit_a_rf(n_estimators, X_train, y_train, min_samples_leaf=5):\n",
+dependent_labels_solution.ipynb:815:    "    clf.fit(X_train, y_train)\n",
+dependent_labels_solution.ipynb:867:    "    clf_red = instantiate_and_fit_a_rf(trees, X_train, y_train)\n",
+dependent_labels_solution.ipynb:869:    "    tr, va, oob = model_score(clf_red, X_train, y_train, X_valid, y_valid)\n",
+dependent_labels_solution.ipynb:948:    "def create_subsampled_dataset(num_duplicates, X_train, y_train):\n",
+dependent_labels_solution.ipynb:986:    "X_train_sub, y_train_sub = create_subsampled_dataset(5, X_train, y_train)"
+dependent_labels_solution.ipynb:1113:    "def instantiate_and_fit_a_BaggingClassifier(n_estimators, base_estimator, X_train, y_train, max_samples = 0.2):\n",
+dependent_labels_solution.ipynb:1152:    "    clf.fit(X_train, y_train)\n",
+dependent_labels_solution.ipynb:1194:    "    clf_bag = instantiate_and_fit_a_BaggingClassifier(trees, base_clf, X_train, y_train)\n",
+dependent_labels_solution.ipynb:1196:    "    tr, va, oob = model_score(clf_bag, X_train, y_train, X_valid, y_valid)\n",
+dependent_labels_solution.ipynb:1377:    "    t, v, o = model_score(clf_nov, X_train, y_train, X_valid, y_valid)\n",
+dependent_labels_solution.ipynb:1436:    "X, X_train, X_valid, X_test, y_train, y_valid, y_test = make_splits(\n",
+dependent_labels_solution.ipynb:1472:    "t, v, o = model_score(clf_nov, X_train, y_train, X_test, y_test)\n",
+rank_features_solution.ipynb:994:    "X_train, X_valid, X_test = split_by_index(X, 0, [0.6, 0.2, 0.2])\n",
+rank_features_solution.ipynb:1096:    "clf.fit(X_train, y_train)"
+rank_features_solution.ipynb:1321:    "shap_values = explainer.shap_values(X_train, tree_limit=5)"
+rank_features_solution.ipynb:1395:    "shap.summary_plot(shap_values, X_train, plot_type=\"bar\")"
+Solutions.ipynb:612:    "X_train, X_test, y_train, y_test = train_test_split(features, outcomes, test_size=0.2, random_state=42)"
+Solutions.ipynb:642:    "model.fit(X_train, y_train)"
+Solutions.ipynb:670:    "y_test_pred = model.predict(X_test)\n",
+Solutions.ipynb:715:    "model.fit(X_train, y_train)\n",
+Solutions.ipynb:719:    "y_test_pred = model.predict(X_test)\n",
+spam_rf.ipynb:46:    "X_train, X_test, y_train, y_test = train_test_split(df['sms_message'], \n",
+spam_rf.ipynb:57:    "testing_data = count_vector.transform(X_test)\n",
+titanic_graphviz.ipynb:78:    "X_train, X_test, y_train, y_test = train_test_split(features, outcomes, test_size=0.2, random_state=42)"
+titanic_graphviz.ipynb:108:    "model.fit(X_train, y_train)"
+titanic_graphviz.ipynb:128:    "y_test_pred = model.predict(X_test)\n",
+titanic_graphviz_solution.ipynb:78:    "X_train, X_test, y_train, y_test = train_test_split(features, outcomes, test_size=0.2, random_state=42)"
+titanic_graphviz_solution.ipynb:108:    "model.fit(X_train, y_train)"
+titanic_graphviz_solution.ipynb:128:    "y_test_pred = model.predict(X_test)\n",
+titanic_survival_exploration.ipynb:872:    "X_train, X_test, y_train, y_test = train_test_split(features, outcomes, test_size=0.2, random_state=42)"
+titanic_survival_exploration.ipynb:902:    "model.fit(X_train, y_train)"
+titanic_survival_exploration.ipynb:930:    "y_test_pred = model.predict(X_test)\n",
+titanic_survival_exploration.ipynb:979:    "model.fit(X_train, y_train)\n",
+titanic_survival_exploration.ipynb:982:    "y_test_pred = model.predict(X_test)\n",
